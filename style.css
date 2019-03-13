@@ -28,6 +28,7 @@ input:not(.comments-entry){
 .container{
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     margin-bottom: 20px;
     color: #494c51;
 }
@@ -76,7 +77,4 @@ input:not(.comments-entry){
     margin-left: 10px;
 }
 
-.comments-text{
-    position: relative;
-    top: 90px;
-}
+
