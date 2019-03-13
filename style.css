@@ -1,0 +1,79 @@
+body{
+    background-color:#5EFDCD;
+    font-family: 'Muli', sans-serif;
+}
+
+
+
+form{
+    background-color: #E5EEF6;
+    width: 850px;
+    padding-right: 30px;
+    padding-top:30px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+input:not(.preference-color){
+    border-radius: 5px;
+    border: solid #d2d8e0 2px;
+    font-size: 15px;
+    text-indent: 10px;
+}
+
+input:not(.comments-entry){
+    height: 25px
+}
+
+.container{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    color: #494c51;
+}
+
+
+.top-line{
+    width: 705px;
+}
+
+.contact-info label{
+    margin-right:10px;
+}
+.address-number{
+    width: 320px; 
+}
+
+.address-other{
+    width: 115px;
+    margin-left: 10px;
+}
+
+.preference-color{
+    margin-left: 60px;
+    border: solid #4286f4 2px;
+    padding: 5px;
+}
+
+.preference {
+    margin-left: 18px;
+} 
+
+.preference-time{
+    margin-left: 15px; 
+    width: 125px;
+}
+
+.preference-date{
+    width: 170px;
+    margin-left: 40px;
+}
+
+
+.comments-entry {
+    width: 705px;
+    height: 200px;
+    margin-left: 10px;
+}
+
+

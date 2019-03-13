@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>We Paint Interiors Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+</head>
+<body>
+    <h1>WePaintInteriors - the interior painting pros</h1>
+    <p>We're excited to paint your room or office! Please fill out the form below to receive a quote:</p>
+
+    
+    <form action="https://www.w3schools.com/action_page.php">
+        
+       
+        <div class="container contact-info">
+            <Label>First name</Label>
+            <input class="top-line" type="text" placeholder="Richard" name="firstname">
+        </div>
+            
+        <div class="container contact-info">
+            <label>Last name</label>
+            <input class="top-line" type="text" placeholder="Hendricks" name="lastname">
+        </div>
+    
+        <div class="container contact-info">
+            <label>Email</label>
+            <input class ="top-line" type="email" placeholder="richard@piedpiper.com" name="email">
+        </div>
+       
+    
+        <div class="container contact-info">
+            <label>Address</label>
+            <input class="address-number" type="text" placeholder="Number and street" name="address"> 
+            <input class="address-other" type="text" placeholder="City" name="city">
+            <input class="address-other" type="text" placeholder="State" name="state">
+            <input class="address-other" type="text" pattern="[0-9]{5}" placeholder="Zip Code" name="zipcode"><br>
+        </div>
+        
+        <div class="container">
+            <label class=>
+                Desired <br>
+                start:
+            </label>
+            <input class="preference-date" type="date"  name="startdate">
+            
+            <label class="preference">Time:</label>
+            <input class="preference-time" type="time" name="start-time">
+
+            <label class="preference">
+                Desired paint <br>
+                color:
+            </label>
+            <input class="preference-color" type="color" name="Desired paint color">
+
+        </div>
+
+        <div class="container">
+            <label>Comments:</label>
+            <input class="comments-entry" type="text" name="comments">
+        </div>
+
+        <div class="container">
+            <button type="button">Submit</button>
+        </div>
+    </form>
+    
+</body>
+</html>
+
+
