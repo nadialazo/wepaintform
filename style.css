@@ -76,4 +76,7 @@ input:not(.comments-entry){
     margin-left: 10px;
 }
 
-
+.comments-text{
+    position: relative;
+    top: 90px;
+}
