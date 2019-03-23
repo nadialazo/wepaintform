@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Cost Estimator</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+</head>
+<body>
+    <h1>WePaintInteriors Cost Estimator</h1>
+    
+
+    <script>
+        let firstName = prompt('First name');
+        let lastName = prompt('Last name');
+        let streetAddress = prompt('Street Address');
+        let city = prompt('City');
+        let widthOfWall = prompt('width of wall to be painted');
+        let heightOfWall = prompt('height of wall to be painted');
+        let paint = prompt('Would you like premium paint?')
+        let squareFeet= Number(widthOfWall) * Number(heightOfWall);
+        let cansOfPaint = squareFeet/175;
+        let paintCost = ''  ;   
+            if (paint === 'no') {
+                paintCost = 15;
+            } else if (paint === 'yes') {
+                paintCost = 20;
+            } 
+
+            function totalCost(){
+            let finalCost = squareFeet * cansOfPaint * paintCost * 1.075;
+            let messagePart1 = ('Estimate for ' + firstName + ' ' + lastName + ' of ' + streetAddress + ' in ' + city + ': ');
+            let messagePart2 = ('The wall to be painted is ' + widthOfWall + ' by ' + heightOfWall + ', or ' + squareFeet + ' feet. This will require ' + cansOfPaint + ' cans of paint. The cost is ' + paintCost + ' dollars, plus tax. Total estimated cost is ' + finalCost + '.')
+            alert(messagePart1 + messagePart2);
+            }
+
+            totalCost();
+
+        
+
+      
+
+        
+
+        
+    </script>
+
+
+
+
+</body>
+</html>
