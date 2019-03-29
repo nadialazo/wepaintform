@@ -31,9 +31,8 @@
 
             function totalCost(){
             let finalCost = squareFeet * cansOfPaint * paintCost * 1.075;
-            let messagePart1 = ('Estimate for ' + firstName + ' ' + lastName + ' of ' + streetAddress + ' in ' + city + ': ');
-            let messagePart2 = ('The wall to be painted is ' + widthOfWall + ' by ' + heightOfWall + ', or ' + squareFeet + ' feet. This will require ' + cansOfPaint + ' cans of paint. The cost is ' + paintCost + ' dollars, plus tax. Total estimated cost is ' + finalCost + '.')
-            alert(messagePart1 + messagePart2);
+            let message = 'Estimate for ' + firstName + ' ' + lastName + ' of ' + streetAddress + ' in ' + city + ': \n The wall to be painted is ' + widthOfWall + ' by ' + heightOfWall + ', or ' + squareFeet + ' feet. This will require ' + cansOfPaint + ' cans of paint. The cost is ' + paintCost + ' dollars, plus tax. Total estimated cost is ' + finalCost + '.'
+            alert(message);
             }
 
             totalCost();
